@@ -1,12 +1,55 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
 
-h2 {
-    color: #007bff;
+/* Header Styles */
+header {
+    background-color: #ff4d4d; /* Red header */
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
 
+h2 {
+    font-size: 2em;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #ff4d4d;
+}
+
+/* Content Styles */
 ul {
     list-style-type: none;
     padding: 0;
