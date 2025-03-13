@@ -50,11 +50,11 @@ nav ul li a:hover {
 }
 
 img.rounded-circle {
-    width: 150px;      /* Adjust the size as needed */
-    height: 150px;     /* Square shape */
-    object-fit: cover; /* Makes sure the image fits well */
-    margin: 20px auto; /* Centers the image */
-    display: block;
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover !important;
+    margin: 20px auto !important;
+    display: block !important;
 }
 
 ul {
